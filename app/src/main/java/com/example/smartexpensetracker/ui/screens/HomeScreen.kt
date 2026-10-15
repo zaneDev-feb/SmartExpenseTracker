@@ -78,20 +78,22 @@ fun HomeScreen(
             contentPadding = PaddingValues(top = 24.dp, bottom = 80.dp)
         ) {
             // 1. HEADER CHÀO MỪNG
+            // 1. HEADER CHÀO MỪNG
             item {
                 Text(
-                    text = "Xin chào! 👋",
+                    text = "Xin chào, Zane! 👋", // <-- Đổi tên
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold,
                     color = TextDark
                 )
                 Text(
-                    text = "Quản lý tài chính thông minh",
+                    text = "Hôm nay bạn đã chi tiêu hợp lý chưa? 🐱✨", // <-- Thêm lời nhắc của Mèo
                     fontSize = 14.sp,
                     color = TextMuted,
                     modifier = Modifier.padding(bottom = 20.dp)
                 )
             }
+
 
             // 2. HERO BALANCE CARD (Thẻ số dư ví điện tử)
             item {
